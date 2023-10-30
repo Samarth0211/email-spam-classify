@@ -5,6 +5,7 @@ import string
 from nltk.stem.porter import PorterStemmer
 import pickle
 
+nltk.download('punkt')
 
 def transform_text(text):
     text = text.lower()
